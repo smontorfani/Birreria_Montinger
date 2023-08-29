@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+ <head>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <style>
+        body {
+        font-family: 'Sedgwick Ave Display', cursive; /* Applying the selected font */
+        }
+        h1 { background-color: rgb(4, 255, 138); } /* all 'h1' tags */
+        .person { color: red; } /* class person */
+        #copyright {font-size: 5px; } /* id copyright */
+        .immagini-contenitore {
+            display: flex; /* Utilizziamo il flexbox per il layout */
+        }
+        .immagine {
+            margin-right: 10px; /* Margine tra le immagini */
+        }
+        .testo-sotto {
+            text-align: center;
+        }
+        </style>
+        
+    <meta charset="utf-8" />
+    <title>Birreria Montinger</title>
+ </head>
+ <body>
+    <h1>Birreria <em>Montinger</em></h1>
+    <p>poi e <em>corsivo</em></p>
+    <!-- a comment inside your document -->
+    
+    <h2>Produttori</h2>
+    <p>Ginger<br> Monto</p>
+    
+    <h2>Prodotti</h2>
+    <p>solo birre artigianali</p>
+    <ul> <li><b>Sperem</b></li> <li><b>Matri</b></li> <li><b>Ben</b></li> </ul>
+
+    <h2>Recensioni</h2>
+    <figure>
+        <div class="immagini-contenitore">
+            <div class="immagine">
+                <img src="curly.png" width="200" height="auto" alt="curly"/>
+                <figcaption><em>"gustosa e professionale"</em></figcaption>
+            </div>
+            <div class="immagine"> 
+                <img src="zurigo casual.jpeg" width="300" height="200" alt="zurigo"/>
+                <figcaption><em>"meglio la quöllfrisch"</em></figcaption>
+            </div> 
+            <div class="immagine">
+                <img src="papa hippy.jpeg" width="200" height="350" alt="hippy"/>
+                <figcaption><em>"da sballo"</em></figcaption>
+            </div>
+            <div class="immagine">  
+                <img src="nonna.jpeg" width="200" height="300" alt="nonna"/>
+                <figcaption><em>"non mi piace"</em></figcaption>
+            </div> 
+        </div>
+    </figure>
+    
+    <p>#solo birre artigianali</p>
+ </body>
+</html>
